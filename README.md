@@ -1,6 +1,3 @@
-# DSA-Project-Documentation-1-
-This is another journey towards building my portfolio while taking my Data Analysis class with Incubator Hub.
-
 I have gained a lot of data-driven insights and knowledge regarding the data analysis process and 
 more related skills to data analysis, ranging from acquiring skills on the great impact of various
 tools in this field,
@@ -47,17 +44,34 @@ including:
 ##### Unleash your Creativity.
 
 ## HEADER.
+![Heading](https://github.com/user-attachments/assets/38b0a7b4-4e05-41d6-b4c0-3b164e8ac5bd)
+
 ## LOGO.
+![Logo](https://github.com/user-attachments/assets/b1e2174b-e8c8-4efd-aa45-3d4375ee1b07)
+
 ## COLOR.
+![Colour](https://github.com/user-attachments/assets/e4b98e5d-388e-4509-bddb-4286d80171ac)
+
 ## INFO.
+![HOME SCROLL](https://github.com/user-attachments/assets/47218368-031a-4611-9c13-653cc62d0752)
+
 
 # Step-By-Step Guide 
 ##Using MS Excel;
 
 ## TABLES.
+![Tables](https://github.com/user-attachments/assets/34b88f60-7f43-4dda-bee6-59b8eb5b8a25)
+
 ## CARDS.
+![Uplo![CARDS (2)](https://github.com/user-attachments/assets/fa573c7f-4014-48ba-9b9a-30be7ba8ff86)
+ading CARDS.png…]()
+
 ## SLICERS.
+![Slicer's](https://github.com/user-attachments/assets/83d8e940-f702-4d0d-9f91-8f072ab89756)
+
 ## PIVOT TABLES.
+![PIVOT TABLES AND SLICERS](https://github.com/user-attachments/assets/936ab0c7-2b98-43ee-b0b9-88a3dc3d4908)
+
 
 ### Step 1: Data Cleaning & Preparation
 
@@ -89,6 +103,8 @@ Go to Insert > Pivot Table and use the following setups:
 ### 2. Product Count per Category.
 - Rows: `Category`
 - Values: `Product Name` (set to Count)
+![Product Count By Category](https://github.com/user-attachments/assets/5a1c604d-b2b4-4a90-9c9d-991a556d3335)
+
 
 ### 3. Total Reviews per Category.
 #### (Cards).
@@ -104,6 +120,8 @@ Go to Insert > Pivot Table and use the following setups:
 #### (Tables).
 - Rows: `Category`
 - Values: `Original_Price` (Average), `Discounted_Price` (Average)
+![Actual Price vs Discounted Price By Category](https://github.com/user-attachments/assets/86d93a38-6328-4f72-aeb5-7ed1fae16c84)
+
 
 ### 6. Products with the Highest Number of Reviews.
 #### (Cards).
@@ -121,6 +139,8 @@ Go to Insert > Pivot Table and use the following setups:
 - Create a pivot:
   - Rows: `Rating`
   - Values: `Product Name` (Count)
+![Rating Distribution](https://github.com/user-attachments/assets/e606cea3-986f-4677-ac8f-9a7295d8a5b0)
+
 
 ### 9. Total Potential Revenue by Category.
 - Rows: `Category`
@@ -139,6 +159,8 @@ Go to Insert > Pivot Table and use the following setups:
 - Insert a scatter plot:
   - X-axis: `Discount%`
   - Y-axis: `Rating`
+![Rating vs Discount](https://github.com/user-attachments/assets/546acdb4-8a80-489e-8f0a-79c845044a6e)
+
 
 ### 12. Products with <1,000 Reviews.
 #### (Calculated Columns).
@@ -161,6 +183,8 @@ Go to Insert > Pivot Table and use the following setups:
   =Rating * Rating_Count
   ```
 - Sort descending and pick the top 5
+![TOP (5) PRODUCTS (in terms of Rating x Review Count)](https://github.com/user-attachments/assets/f83fc7e8-aa58-439c-be4b-e054529eb486)
+
 
 ---
 
@@ -178,6 +202,7 @@ Go to Insert > Pivot Table and use the following setups:
    - Use consistent colors
    - Group visuals logically (e.g., pricing, reviews, ratings)
    - Add titles and labels for clarity
+![DASHBOARD](https://github.com/user-attachments/assets/855316d2-3324-40f3-8cde-b6a2685c83bb)
 
 ---
 
