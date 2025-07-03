@@ -1,3 +1,6 @@
+This is another journey towards my Portfolio building while taking my Data Analysis class with
+Incubator Hub.
+
 I have gained a lot of data-driven insights and knowledge regarding the data analysis process and 
 more related skills to data analysis, ranging from acquiring skills on the great impact of various
 tools in this field,
