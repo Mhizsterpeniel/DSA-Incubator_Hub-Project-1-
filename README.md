@@ -1,13 +1,10 @@
 # DSA-Project-Documentation-1-
-This is another journey towards my Portfolio building while taking my Data Analysis class with Incubator Hub.
-# DSA-Project-Documentation(1)
-This is another journey towards my Portfolio building while taking my Data Analysis class with
-Incubator Hub.
+This is another journey towards building my portfolio while taking my Data Analysis class with Incubator Hub.
 
-I have gained alot of data driven insights and knowledge regarding data analysis process and 
-more related skills to data analysis ranging from aquiring skills on the great impact of various
+I have gained a lot of data-driven insights and knowledge regarding the data analysis process and 
+more related skills to data analysis, ranging from acquiring skills on the great impact of various
 tools in this field,
-Tool's Like:
+Tools Like:
 - MS Excel.
 - SQL (Simple Query Language).
 - Power BI.
@@ -64,13 +61,13 @@ including:
 
 ### Step 1: Data Cleaning & Preparation
 
-1.Open your dataset in Excel.
-2.Check for missing values:
+1. Open your dataset in Excel.
+2. Check for missing values:
    - Use `Filter` to find blanks in key columns like `Product Name`, `Category`, `Price`, `Rating`, etc.
    - Remove or fill missing values as appropriate.
 
-3.Create calculated columns**:
-   - Discount %:
+3. Create calculated columns**:
+   - Discount% %:
      ```excel
      =IF(Original_Price=0, 0, (Original_Price - Discounted_Price)/Original_Price)
      ```
@@ -84,10 +81,10 @@ including:
 
 Go to Insert > Pivot Table and use the following setups:
 
-### 1. Average Discount % by Category.
+### 1. Average Discount% % by Category.
 #### (Cards).
 - Rows: `Category`
-- Values: `Discount %` (set to Average)
+- Values: `Discount% %` (set to Average)
 
 ### 2. Product Count per Category.
 - Rows: `Category`
@@ -108,9 +105,9 @@ Go to Insert > Pivot Table and use the following setups:
 - Rows: `Category`
 - Values: `Original_Price` (Average), `Discounted_Price` (Average)
 
-### 6. Products with Highest Number of Reviews.
+### 6. Products with the Highest Number of Reviews.
 #### (Cards).
-- Sort dataset by `Rating_Count` descending
+- Sort the dataset by `Rating_Count` descending
 
 ### 7. Products with ≥50% Discount
 #### (Calculated Columns).
@@ -140,7 +137,7 @@ Go to Insert > Pivot Table and use the following setups:
 ### 11. Rating vs Discount.
 #### (Calculated Columns).
 - Insert a scatter plot:
-  - X-axis: `Discount %`
+  - X-axis: `Discount%`
   - Y-axis: `Rating`
 
 ### 12. Products with <1,000 Reviews.
@@ -154,7 +151,7 @@ Go to Insert > Pivot Table and use the following setups:
 ### 13. Categories with Highest Discounts.
 - Use pivot:
   - Rows: `Category`
-  - Values: `Discount %` (Average)
+  - Values: `Discount%` (Average)
   - Sort descending
 
 ### 14. Top 5 Products by Rating × Review Count.
@@ -163,13 +160,13 @@ Go to Insert > Pivot Table and use the following setups:
   ```excel
   =Rating * Rating_Count
   ```
-- Sort descending and pick top 5
+- Sort descending and pick the top 5
 
 ---
 
 ## Step 3: Dashboard Creation.
 
-1. I Created a new sheet called `Dashboard`
+1. I created a new sheet called `Dashboard`
 2. Use:
    - Pivot charts (bar, column, pie, scatter)
    - Slicers for Category, Price Range, Rating
@@ -188,7 +185,7 @@ Go to Insert > Pivot Table and use the following setups:
 
 - Add interactivity with slicers
 - Use conditional formatting to highlight key metrics
-- I saved the file as `.xlsx` and share with my team!
+- I saved the file as `.xlsx`.
 
 ---
 ✨
